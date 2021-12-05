@@ -1,0 +1,7 @@
+
+
+.containerPartners{
+    width: 100%;
+    height: calc(100vh - 90px);
+    background: linear-gradient(180deg, #2638D8 5.1%, rgba(37, 40, 70, 0) 101.12%);
+}

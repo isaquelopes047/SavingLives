@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+.containerLanding{
+    width: 100%;
+    height: calc(100vh - 90px);
+    background-color: #2638D8;
+}
+
+.containerTitle{
+    width: 50vw;
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: red;
+}
+    .containerTitle h1{
+        margin: 0;
+        padding: 0;
+        font-family: 'Oswald', sans-serif;
+        font-size: 64px;
+        color: #fff;
+    }
+    .containerTitle button{
+        width: 120px;
+        height: 35px;
+        border: none;
+        border-radius: 60px;
+        background-color: rgb(21, 189, 21);
+    }
