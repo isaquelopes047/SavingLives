@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.containerAboutUs{
+    width: 100%;
+    height: auto;
+}
+
+.titleAbout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+    .titleAbout h1{
+        font-family: 'Oswald', sans-serif;
+        color: #005BE3;
+    }
+
+.containerPAbout{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align:left
+}
+    .containerPAbout p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
