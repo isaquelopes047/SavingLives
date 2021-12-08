@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.containeTokenomics{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10vh;
+    background: linear-gradient(180deg, #0044AB 0%, rgba(52, 82, 244, 0) 100%);
+}
+
+.titleToke{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.titleToke h1{
+    color: #fff;
+}
+
+.containerCards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+    .cardToke{
+        width: 170px;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 10vh;
+        border-radius: 10px;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 10px 12px 21px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 22px;
+        background-color: #fff;
+    }
+    .cardToke p:nth-child(1){
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }

@@ -49,8 +49,9 @@ h1{
     flex-wrap: wrap;
 }
     .infoPartners p{
-        color: #6A6A6A;
+        color: #3f3f3f;
         font-family: 'Roboto', sans-serif;
+        font-size: 22px;
     }
     .infoPartners button{
         width: 120px;

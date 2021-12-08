@@ -4,6 +4,7 @@
 .containerAboutUs{
     width: 100%;
     height: auto;
+    margin-bottom: 20vh;
 }
 
 .titleAbout{
@@ -20,7 +21,7 @@
     }
 
 .containerPAbout{
-    width: 90%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     text-align:left
