@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+.containerBuy{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+}
+    .containerBuy p{
+        color:#494949;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .containerBuy p:nth-child(4){
+        color:#494949;
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+
+.containertitle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+    .containertitle h1{
+        color:#005BE3;
+        font-family: 'Oswald', sans-serif;
+    }
+
+.containerWhereBuy{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardBuy{
+
+    width: 13vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 4px solid #ccc;
+}
+    .cardBuy p{
+        font-size: 20px;
+    }
+
+    .cardBuy img{
+        width: 60px;
+    } 
+    
+    .cardBuy button{
+        width: 70px;
+        height: 30px;
+        border: none;
+        background-color: green;
+        color: #fff;
+        border-radius: 50px;
+        font-weight: 600;
+        cursor: pointer;
+    }
