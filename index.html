@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./style/About.css">
     <link rel="stylesheet" href="./style/tokenomics.css">
     <link rel="stylesheet" href="./style/wherebuy.css">
+    <link rel="stylesheet" href="./style/contact.css">
 
     <title>Saving Lives</title>
 </head>
@@ -25,26 +26,31 @@
             <img src="./img/logoUm.png" alt="">
         </div>
         <ul>
-            <a>
+            <a href="#page-1">
                 <li class="li_Nav"><img src="./icons/handIconNav.png" alt=""> Partners</li>
             </a>
-            <a>
+            <a href="#page-2">
                 <li class="li_Nav"><img src="./icons/TokenomicsNav.png" alt=""> Tokenomics</li>
             </a>
-            <a>
+            <a href="#page-3">
                 <li class="li_Nav"><img src="./icons/buyNav.png" alt=""> How to buy</li>
             </a>
-            <a>
+            <a href="#page-4">
                 <li class="li_Nav"><img src="./icons/AboutNav.png" alt=""> About us</li>
             </a>
         </ul>
     </nav>
 
     <main>
+
+        <div class="up">
+            <img src="./icons/homepage.png" alt="">
+        </div>
+
         <section>
             <div class="containerLanding">
                 <div class="containerTitle">
-                    <h1>have you ever thought about<br>changing the word?</h1>
+                    <h1 id="result"></h1>
 
                     <button>By Here</button>
 
@@ -56,7 +62,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="page-1">
             <div class="containerPartners">
                 <div class="containerTitlePartners">
                     <img src="./icons/handIconNav.png" alt="">
@@ -79,7 +85,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="page-4">
             <div class="containerAboutUs">
                 <div class="titleAbout">
                     <img src="./icons/AboutNav.png" alt="">
@@ -102,7 +108,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="page-2">
             <div class="containeTokenomics">
                 <div class="titleToke">
                     <img src="./icons/TokenomicsNav.png" alt="">
@@ -133,7 +139,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="page-3">
             <div class="containerBuy">
                 <div class="containertitle">
                     <img src="./icons/buyNav.png" alt="">
@@ -165,8 +171,40 @@
                 <p>Coming soon</p>
             </div>
         </section>
-    </main>
 
+        <section>
+            <div class="containerContact">
+                <div class="containertitle">
+                    <img src="./icons/like.png" alt="">
+                    <h1>Follow and Contact</h1>
+                </div>
+
+                <p>Any question? Reach out to us we'll get back to you shortly</p>
+
+                <div class="containerContactCars">
+                    <div class="cardBuy">
+                        <img src="./img/facebook.png" alt="">
+                        <p>Join on Facebook</p>
+                    </div>
+
+                    <div class="cardBuy">
+                        <img src="./img/instagram.png" alt="">
+                        <p>Join on Instagram</p>
+                    </div>
+
+                    <div class="cardBuy">
+                        <img src="./img/telegram.png" alt="">
+                        <p>Join on Telegram</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    </div>
+
+    <script src="./JS/returnTop.js"></script>
+    <script src="./JS/title.js"></script>
 </body>
 
 </html>

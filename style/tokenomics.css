@@ -3,7 +3,7 @@
 
 .containeTokenomics{
     width: 100%;
-    height: auto;
+    height: 100vh;
     margin-bottom: 10vh;
     background: linear-gradient(180deg, #0044AB 0%, rgba(52, 82, 244, 0) 100%);
 }

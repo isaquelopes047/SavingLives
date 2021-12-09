@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .containerLanding{
     width: 100%;
-    height: calc(100vh - 90px);
+    height: calc(100vh);
     background-color: #2638D8;
 }
 
 .containerTitle{
     width: 50vw;
-    height: calc(100vh - 90px);
+    height: calc(100vh);
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -33,6 +37,7 @@
         font-size: 20px;
         margin-top: 30px;
         margin: 10vh 0 0 10vh;
+        cursor: pointer;
     }
 .containerContract{
     display: flex;
@@ -47,3 +52,21 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 10px;
 }
+
+.up{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(111, 12, 136);
+    position: fixed;
+    margin-left: 93.5vw;
+    margin-bottom: 30px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+    .up img{
+        width: 30px;
+    }
