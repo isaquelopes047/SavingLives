@@ -3,9 +3,13 @@
 
 .containeTokenomics{
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin-bottom: 10vh;
     background: linear-gradient(180deg, #0044AB 0%, rgba(52, 82, 244, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .titleToke{
@@ -22,33 +26,46 @@
 }
 
 .containerCards{
-    width: 100%;
+    width: 70%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 10vh;
 }
     .cardToke{
-        width: 170px;
-        height: 190px;
+        width: 210px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
-        margin-left: 10vh;
-        border-radius: 10px;
+        border-radius: 0px 3px 3px 0px !important;
         font-family: 'Roboto', sans-serif;
         box-shadow: 10px 12px 21px 7px rgba(0, 0, 0, 0.25);
         border-radius: 22px;
         background-color: #fff;
+        padding-bottom: 20px;
+    }
+    .cardToke:nth-child(1){
+        border-left: 5px rgb(36, 36, 36) solid;
+    }
+    .cardToke:nth-child(2){
+        border-left: 5px rgb(11, 11, 221) solid;
+    }
+    .cardToke:nth-child(3){
+        border-left: 5px rgb(15, 138, 56) solid;
+    }
+    .cardToke:nth-child(4){
+        border-left: 5px rgb(214, 211, 15) solid;
     }
     .cardToke p:nth-child(1){
-        font-size: 22px;
+        font-size: 30px;
+        color: #383838;
         font-family: 'Roboto', sans-serif;
         font-weight: 600;
     }

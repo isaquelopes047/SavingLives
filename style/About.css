@@ -2,13 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 .containerAboutUs{
-    width: 100%;
-    height: auto;
-    margin-bottom: 20vh;
+    width: 100vw;
+    height: 100vh;
 }
-
 .titleAbout{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: center;
@@ -22,10 +20,10 @@
     }
 
 .containerPAbout{
-    width: 50%;
-    height: 100vh;
-    margin: 0 auto;
-    text-align:left
+    width: 50vw;
+    height: auto;
+    margin: 50px auto;
+    text-align:left;
 }
     .containerPAbout p{
         font-family: 'Roboto', sans-serif;

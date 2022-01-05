@@ -1,8 +1,9 @@
+
+/* MEDIA NAV */
 @media only screen and (max-width: 1000px) {
     .containerImgNav{
         display: none;
     }
-
     ul{
         width: 100vw;
         height: auto;
@@ -14,17 +15,103 @@
         padding: 0;
         margin-bottom: 10px;
     }
-
     li{
         margin-top: 10px;
         flex-direction: column;
         border-bottom: 2px solid #383838;
     }
-
     nav{
         width: 100%;
         height: auto; 
         display: flex;
         flex-direction: column;
     }
+    .reponseNav{
+        display: block;
+    }
+    .menuNav{
+        height: 0px;
+        overflow: hidden;
+    }
 }
+/* END MEDIA NAV */
+/* MEDIA LANDING PAGE */
+@media only screen and (max-width: 839px){
+    .containerLanding{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .containerTitle{
+        width: 100vw;
+        height: 30vh;
+    }
+    .containerTitle h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .containerLogo{
+        width: 100vw;
+    }
+    .containerLogo img{
+        width: 93vw;
+    }
+    .containerTitle button, 
+    .containerContract{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .containerContract{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .containerContract p{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .containerLogo img{
+        width: 93vw;
+    }
+}
+/* END MEDIA LANDING PAGE */
+/* MEDIA PARTERS US */
+@media only screen and (max-width: 537px){
+    .infoPartners p{
+        text-align: center;
+    }
+    .containerPartners{
+        margin-bottom: 150px;
+    }
+}
+/* END PARTERS US */
+/* MEDIA ABOUT US  */
+@media only screen and (max-width: 948px){
+    .containerPAbout{
+        width: 90vw !important;
+        text-align: center !important;
+        height: auto !important;
+    }
+}
+/* END MEDIA ABOUT US */
+/* MEDIA TOKETOMICS  */
+@media only screen and (max-width: 948px){
+    .containeTokenomics{
+        height: auto;
+    }
+    .cardToke{
+        margin-bottom: 30px;
+        margin-left: 3vh !important;
+    }
+}
+/* END MEDIA TOKETOMICS */
+

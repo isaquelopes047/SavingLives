@@ -1,5 +1,5 @@
 
-var texto = "have you ever thought about changing the word?";
+var texto = "Have you ever thought about changing the word?";
 var result;
 
 var count = 0;

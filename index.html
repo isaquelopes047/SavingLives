@@ -20,8 +20,13 @@
 </head>
 
 <body>
-
-    <nav>
+    <nav class="reponseNav">
+        <ul>
+            <button class="OpenNav"><img src="./icons/navDown.png" alt=""></button>
+            <button class="closeNav"><img src="./icons/closeNav.png" alt=""></button>
+        </ul>
+    </nav>
+    <nav class="menuNav">
         <div class="containerImgNav">
             <img src="./img/logoUm.png" alt="">
         </div>
@@ -47,6 +52,18 @@
             <img src="./icons/homepage.png" alt="">
         </div>
 
+        <div class="linksContact">
+            <button>
+                <img src="./icons/insta.png" alt="">
+            </button>
+            <button>
+                <img src="./icons/telegram.png" alt="">
+            </button>
+            <button>
+                <img src="./icons/twitter.png" alt="">
+            </button>
+        </div>
+
         <section>
             <div class="containerLanding">
                 <div class="containerTitle">
@@ -59,6 +76,9 @@
                         <p>Contract<br>0x7C0A3F347907B4a7C52aB905E057B535174FDe72</p>
                     </div>
                 </div>
+                <div class="containerLogo">
+                    <img src="./img/note.png" alt="">
+                </div>
             </div>
         </section>
 
@@ -70,17 +90,17 @@
                 </div>
 
                 <div class="listPartners">
-                    <img src="./img/partyDX.png" alt="">
-                    <img src="./img/partyBSC.png" alt="">
-                    <img src="./img/PARTYwolf.jpeg" alt="">
-                    <img src="./img/poocoin512.png" alt="">
-                    <img src="./img/7186.png" alt="">
+                    <a href="https://dxsale.app/"><img src="./img/partyDX.png" alt="DxSale" title="DxSale"></a>
+                    <a href="https://bscscan.com/"><img src="./img/partyBSC.png" alt="BSCscan" title="BSCscan"></a>
+                    <a href=""><img src="./img/PARTYwolf.jpeg" alt="" title=""></a>
+                    <a href="https://poocoin.app/"><img src="./img/poocoin512.png" alt="PooCoin" title="PooCoin"></a>
+                    <a href="https://pancakeswap.finance/"><img src="./img/7186.png" alt="PancakeSwap" title="PancakeSwap"></a>
                 </div>
 
                 <div class="infoPartners">
                     <p>Our partners guarantee the safety and strength of our project</p>
                     <p>Do you want to be our partner?</p>
-                    <button>Click Here</button>
+                    <button href="https://t.me/saving_lives">Click Here</button>
                 </div>
             </div>
         </section>
@@ -93,17 +113,19 @@
                 </div>
 
                 <div class="containerPAbout">
-                    <p>We are going through difficult times due to the pandemic and it was with this in mind that this
-                        token was created in order to raise a certain % in money to help people in need, such as
+                    <p> We are going through difficult times due to the pandemic, it was with this in mind that this
+                        project was created in order to raise a certain % in money to help people in need, such as
                         homeless people and people with disabilities.
-                        Something essential for people, for example: a bread roll, a plate of food, warm clothes,
-                        blankets and even hygiene products.</p>
-                    <p>For people with some type of disability, for example: a crutch, a walker, a mattress or pillow, a
+                        This Token will distribute in each transaction, 5% for marketing, 6% rewards in Ethereum for
+                        holders and 9% to help homeless people and people with any kind of disability.</p>
+                    <p>This project will benefit people in need with something so simple and essential, but at the same
+                        time so difficult for them.</p>
+                    <p>For example: Helping homeless people to buy a bread roll, a plate of food, warm clothes, blankets
+                        and even products for their personal hygiene.</p>
+                    <p>For people with a disability It helps to buy a crutch, a walker, a mattress, a bed sores, a
                         simple wheelchair or even a motorized wheelchair.</p>
                     <p>All of this ends up becoming something very difficult to acquire due to its values ​​being very
-                        high and most of the times it ends up being an almost impossible mission!
-                        This Token will distribute up to 5% rewards in Ethereum for each transaction to Holders, 6% to
-                        help people with disabilities buy it and 6% to homeless people and 3% to 'marketing'</p>
+                        high and most of the times it ends up being an almost impossible mission!</p>
                 </div>
             </div>
         </section>
@@ -119,21 +141,25 @@
                     <div class="cardToke">
                         <p>5%</p>
                         <p>Reward<br>in Ethereum</p>
+                        <img src="./icons/iconEthe.png" alt="">
                     </div>
 
                     <div class="cardToke">
                         <p>6%</p>
                         <p>Help people<br>with disabilities</p>
+                        <img src="./icons/wheels.png" alt="">
                     </div>
 
                     <div class="cardToke">
                         <p>6%</p>
                         <p>Help homeless<br>people</p>
+                        <img src="./icons/helphand.png" alt="">
                     </div>
 
                     <div class="cardToke">
                         <p>3%</p>
-                        <p>3% to marketing</p>
+                        <p>3% destined for<br>marketing</p>
+                        <img src="./icons/mark.png" alt="">
                     </div>
                 </div>
             </div>
@@ -149,30 +175,28 @@
                 <p>Buy from one of our three partners</p>
 
                 <div class="containerWhereBuy">
-                    <div class="cardBuy">
+                    <div class="cardBuyToke">
                         <img src="./img/partyDX.png" alt="">
                         <p>Buy onDxSale</p>
                         <button>Buy</button>
                     </div>
 
-                    <div class="cardBuy">
+                    <div class="cardBuyToke">
                         <img src="./img/poocoin512.png" alt="">
                         <p>Buy on PooCoin</p>
                         <button>Buy</button>
                     </div>
 
-                    <div class="cardBuy">
+                    <div class="cardBuyToke">
                         <img src="./img/7186.png" alt="">
                         <p>Buy on pancakeSwap</p>
                         <button>Buy</button>
                     </div>
-                </div>
-
-                <p>Coming soon</p>
+                </div>              
             </div>
         </section>
 
-        <section>
+<!--         <section>
             <div class="containerContact">
                 <div class="containertitle">
                     <img src="./icons/like.png" alt="">
@@ -182,27 +206,27 @@
                 <p>Any question? Reach out to us we'll get back to you shortly</p>
 
                 <div class="containerContactCars">
-                    <div class="cardBuy">
+                    <div class="cardContact">
                         <img src="./img/facebook.png" alt="">
                         <p>Join on Facebook</p>
                     </div>
 
-                    <div class="cardBuy">
+                    <div class="cardContact">
                         <img src="./img/instagram.png" alt="">
                         <p>Join on Instagram</p>
                     </div>
 
-                    <div class="cardBuy">
-                        <img src="./img/telegram.png" alt="">
+                    <div class="cardContact">
+                        <img src="./img/telegram.png" alt="" href="https://t.me/saving_lives">
                         <p>Join on Telegram</p>
                     </div>
                 </div>
             </div>
         </section>
-
+ -->
     </main>
-    </div>
 
+    <script src="./JS/menu.js"></script>
     <script src="./JS/returnTop.js"></script>
     <script src="./JS/title.js"></script>
 </body>

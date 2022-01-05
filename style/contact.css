@@ -1,34 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
-
-.containerContact{
-    width: 100%;
-    height: auto;
+.linksContact{
+    width: 50px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: rgb(255, 242, 242);
+    position: fixed;
+    margin-left: 93.5vw;
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 20vh;
-    background-color: #ccc;
-}
-
-.containerContactCars{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
-    .containerContactCars p{
-        color:#494949;
-        font-size: 22px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-.containerContact p{
-        color:#494949;
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
+.linksContact button{
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.linksContact img{
+    width: 30px;
 }

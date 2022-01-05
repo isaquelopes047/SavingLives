@@ -5,41 +5,40 @@ h1{
     margin: 0;
     padding: 0;
 }
-
 .containerPartners{
     width: 100%;
     height: calc(100vh);
     background: linear-gradient(180deg, #2638D8 5.1%, rgba(37, 40, 70, 0) 101.12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
 .containerTitlePartners{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     padding-top: 60px;
 }
     .containerTitlePartners h1{
         color: #fff;
         font-family: 'Oswald', sans-serif;
     }
-
 .listPartners{
-    width: 100%;
+    width: 70%;
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
     .listPartners img{
         width: 60px;
-        margin: 0 10px 0 40px;
+        margin: 0 10px 0 0;
     }
-
 .infoPartners{
     width: 100%;
     height: auto;
@@ -64,4 +63,8 @@ h1{
         font-family: 'Oswald', sans-serif;
         font-size: 20px;
         margin-top: 30px;
+        cursor: pointer;
     }
+        .infoPartners button:hover{
+            background-color: rgb(32, 102, 32);
+        }

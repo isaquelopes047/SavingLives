@@ -3,11 +3,22 @@
 html {
     scroll-behavior: smooth;
 }
-
+.containerLogo{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLogo img{
+    width: 40vw;
+    margin-top: -50px;
+}
 .containerLanding{
     width: 100%;
     height: calc(100vh);
     background-color: #2638D8;
+    display: flex;
 }
 
 .containerTitle{
@@ -24,7 +35,7 @@ html {
         font-family: 'Oswald', sans-serif;
         font-size: 64px;
         color: #fff;
-        margin: 10vh 0 0 10vh;
+        margin: 20vh 0 0 10vh;
     }
     .containerTitle button{
         width: 120px;
@@ -57,7 +68,7 @@ html {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background-color: rgb(111, 12, 136);
+    background-color: rgb(255, 242, 242);
     position: fixed;
     margin-left: 93.5vw;
     margin-bottom: 30px;
